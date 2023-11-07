@@ -11,6 +11,20 @@ I am a 1st year Master's student at the Faculty of Computer Science at VSU and a
 * JavaScript
 * React
 * Git
+# Code example
+```
+function order(words) {
+  
+    const splitWords = words.split(' ')
+    const result = []
+
+    for (let i = 1; i < splitWords.length + 1; i++) {
+        result.push(splitWords.find((item) => item.includes(i)))
+    }
+
+    return result.join(' ')
+}
+```
 ## Education 
 * BS in Computer Science, Voronezh State University (2019-2023), Russia
     - Faculty of Mathematics and Computer Scince
